@@ -51,7 +51,7 @@ const Slider = () => {
                 <TextLoop>
                   <span className="loop-text">EL PATRON</span>
                   <span className="loop-text"> EL JEFE</span>
-                  <span className="loop-text"> EL PATRON</span>
+                  <span className="loop-text"> EL COMANDANTE</span>
                 </TextLoop>{" "}
                 <span className="overlay_effect"></span>
               </h3>
@@ -60,7 +60,7 @@ const Slider = () => {
 
             <div className="job_wrap">
               <span className="job">
-                DE CARTELEX
+                CARTELEX
                 <span className="overlay_effect"></span>
               </span>
             </div>
