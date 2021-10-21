@@ -8,15 +8,15 @@ const Footer = () => {
           <div className="container">
             <div className="inner">
               <p>
-                &copy; {new Date().getFullYear()} by{" "}
+                &copy; {new Date().getFullYear()} por{" "}
                 <a
                   href="https://themeforest.net/user/ib-themes"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  ib-themes
+                  AlvaroDev_
                 </a>
-                . All rights reserved.
+                . Todos los derechos reservados.
               </p>
             </div>
             {/* End inner */}

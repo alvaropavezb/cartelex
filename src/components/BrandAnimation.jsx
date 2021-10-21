@@ -4,14 +4,10 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 const partnerList = [
+  { img: "1", animationDealay: "",url:"https://sepuls.cl/" },
+  { img: "2", animationDealay: "30",url:"https://www.ozcoffee.cl/" },
   { img: "1", animationDealay: "" },
-  { img: "2", animationDealay: "30" },
-  { img: "3", animationDealay: "60" },
-  { img: "4", animationDealay: "90" },
-  { img: "5", animationDealay: "120" },
-  { img: "6", animationDealay: "150" },
-  { img: "7", animationDealay: "180" },
-  { img: "8", animationDealay: "210" },
+  { img: "1", animationDealay: "" },
 ];
 
 export default function BrandAnimation() {
@@ -37,6 +33,7 @@ export default function BrandAnimation() {
       <Slider {...settings}>
         {partnerList.map((val, i) => (
           <li className="item" key={i}>
+            <a href={val.url}>
             <img
               src={`img/partners/${val.img}.png`}
               alt="partners brand"
@@ -44,6 +41,7 @@ export default function BrandAnimation() {
               data-aos-duration="1200"
               data-aos-delay={val.animationDealay}
             />
+            </a>
           </li>
         ))}
         {/* End single parter image */}
